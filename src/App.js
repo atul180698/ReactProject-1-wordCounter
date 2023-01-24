@@ -25,11 +25,11 @@ function App() {
     if (screenMode==="light"){
       setScreenMode("dark")
       document.body.style.backgroundColor = "#07071c"
-      showAlert("Dark Mode Enabled!","success")
+      showAlert("Dark Mode Enabled!","primary")
     }else{
       setScreenMode("light")
       document.body.style.backgroundColor = "white"
-      showAlert("Dark Mode Disabled!","success")
+      showAlert("Dark Mode Disabled!","primary")
     }
   }
 

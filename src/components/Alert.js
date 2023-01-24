@@ -14,7 +14,7 @@ export default function Alert(props) {
       <div className='container'>
         <div className="row ms-2 me-2">
           <div className={`alert alert-${props.alertBar.type} alert-dismissible fade show`} role="alert">
-            <strong>{capitalize(props.alertBar.type==="danger"?"error":props.alertBar.type)}: </strong>{props.alertBar.message}
+            <strong>{capitalize(props.alertBar.type==="primary"?"info":props.alertBar.type)}: </strong>{props.alertBar.message}
           </div> 
         </div>      
       </div>
